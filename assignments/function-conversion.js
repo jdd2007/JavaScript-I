@@ -5,25 +5,9 @@
 // };
 // myFunction();
 
+let myFunction = () => console.log("Function was invoked!");
 
-// (param1, param2, …, paramN) => { statements } 
-// (param1, param2, …, paramN) => expression
-// equivalent to: => { return expression; }
-
-// Parentheses are optional when there's only one parameter name:
-// (singleParam) => { statements }
-// singleParam => { statements }
-
-// The parameter list for a function with no parameters should be written with a pair of parentheses.
-// () => { statements }
-
-
-
-
-
-
-
-
+myFunction();
 
 
 // let anotherFunction = function (param) {
@@ -31,16 +15,28 @@
 // };
 // anotherFunction("Example");
 
+let anotherFunction = param => param;
+
+console.log(anotherFunction("Example"));
+
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
+
+
+let add = (param1, param2) => (param1 + param2);
+
+console.log(add(100,200));
 
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
 
+let subtract = (param1, param2) => (param1 - param2);
+
+console.log(subtract(1,2))
 
 // Stretch
 
