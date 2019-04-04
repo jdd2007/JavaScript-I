@@ -5,6 +5,8 @@
 // };
 // myFunction();
 
+console.log('Answers to Function-Conversion');
+
 let myFunction = () => console.log("Function was invoked!");
 
 myFunction();
